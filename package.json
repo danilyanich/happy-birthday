@@ -1,0 +1,32 @@
+{
+  "name": "happy-birthday",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://danilyanich.github.io/happy-birthday/",
+  "dependencies": {
+    "react": "16.6.1",
+    "react-dom": "16.6.1",
+    "react-scripts": "2.1.1",
+    "styled-components": "4.0.3"
+  },
+  "scripts": {
+    "start": "NODE_PATH=src react-scripts start",
+    "build": "NODE_PATH=src react-scripts build",
+    "test": "NODE_PATH=src react-scripts test",
+    "eject": "NODE_PATH=src react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "2.0.1"
+  }
+}
